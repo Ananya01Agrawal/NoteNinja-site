@@ -88,7 +88,7 @@ const SignUpForm = () => {
 
     return (
         <div className='container max-w-4xl py-4 mx-auto md:py-10'>
-            <Heading title="Sign Up" description='Sign Up to DevNotes' />
+            <Heading title="Sign Up" description='Sign Up to NotesNinja' />
             <Separator className='mt-4 mb-8' />
             <div className='max-w-lg mx-auto'>
                 <Form {...form}>
