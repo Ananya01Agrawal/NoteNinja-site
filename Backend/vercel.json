@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/api/auth/.*",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/api/notes/.*",
+      "dest": "/index.js"
+    }
+  ]
+}
