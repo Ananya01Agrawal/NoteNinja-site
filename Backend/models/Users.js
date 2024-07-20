@@ -20,6 +20,14 @@ const usersSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  userAdded:{
+    type:[String],
+    default:[]
+  },
+  biengAddedto:{
+    type:[String],
+    default:[]
+  }
 });
 
 module.exports = mongoose.model('users', usersSchema);
