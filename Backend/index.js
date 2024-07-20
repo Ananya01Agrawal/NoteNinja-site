@@ -41,5 +41,5 @@ if (
 
 
 app.listen(port, () => {
-  console.log(`DevNotes Backend listening at port ${port}`);
+  console.log(`NoteNinja Backend listening at port ${port}`);
 });
