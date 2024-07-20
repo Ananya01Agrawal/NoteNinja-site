@@ -1,4 +1,4 @@
-# Dev_Notes : Secured on the cloud
+# Notes_Ninja : Secured on the cloud
 
 ### Dev_Notes is a Notes App created using MERN Stack, to help users store their notes, and access it anywhere anytime.
 
