@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import Textutils from "@/pages/Textutils";
 import About from "@/pages/About";
 import Providers from "@/providers";
+import AddUser from "@/components/AddUser"
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/textutils" element={<Textutils />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/AddUser" element={<AddUser />} />
           </Routes>
         </div>
         <Footer />

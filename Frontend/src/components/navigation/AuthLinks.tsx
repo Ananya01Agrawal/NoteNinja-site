@@ -32,6 +32,11 @@ const AuthLinks = () => {
                             <Button size="icon" variant="ghost" onClick={() => navigate('/signup')}>
                                 <UserPlus2 className='h-[1.2rem] w-[1.2rem]' />
                             </Button>
+                            </ToolTipBox>
+                            <ToolTipBox tip="Add user">
+                            <Button size="icon" variant="ghost" onClick={() => navigate('/AddUser')}>
+                                <UserPlus2 className='h-[1.2rem] w-[1.2rem]' />
+                            </Button>
                         </ToolTipBox>
                     </div>
                 )

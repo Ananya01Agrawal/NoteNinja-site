@@ -21,6 +21,11 @@ const navLinks = [
         name: "About",
         link: "/about"
     },
+    {
+        id: 4,
+        name: "Add User",
+        link: "/adduser"
+    }
 ];
 
 interface NavigationProps {
